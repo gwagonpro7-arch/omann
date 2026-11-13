@@ -1,0 +1,1013 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>أَمْوَاجُ العُمْرَان | دار الفخامة المعمارية والإسكان العُماني</title>
+    
+    <!-- Google Fonts: Amiri for Poetic Luxury Headings & IBM Plex Sans Arabic for Refined UI -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=IBM+Plex+Sans+Arabic:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        royal: {
+                            950: '#060B19',
+                            900: '#0B132B',
+                            800: '#132043',
+                            700: '#1C2E5E'
+                        },
+                        gold: {
+                            300: '#F2DFB6',
+                            400: '#E5C98B',
+                            500: '#C5A059',
+                            600: '#A6823E',
+                            700: '#806127'
+                        },
+                        alabaster: '#FAF7F2',
+                        sand: '#EFE9DE',
+                        stone: '#D8CEBE',
+                        charcoal: '#1A1A1A'
+                    },
+                    fontFamily: {
+                        serif: ['Amiri', 'serif'],
+                        sans: ['IBM Plex Sans Arabic', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        /* Custom Omani Luxury Styles & Arch Geometries */
+        body {
+            background-color: #FAF7F2;
+            color: #1A1A1A;
+            font-family: 'IBM Plex Sans Arabic', sans-serif;
+            overflow-x: hidden;
+        }
+
+        .font-poetic {
+            font-family: 'Amiri', serif;
+        }
+
+        /* Subtle Omani Mashrabiya Geometric Pattern Overlay */
+        .omani-pattern {
+            background-image: radial-gradient(rgba(197, 160, 89, 0.14) 1px, transparent 1px),
+                              radial-gradient(rgba(197, 160, 89, 0.08) 1px, #0B132B 1px);
+            background-size: 32px 32px;
+            background-position: 0 0, 16px 16px;
+        }
+
+        .omani-pattern-light {
+            background-image: radial-gradient(rgba(197, 160, 89, 0.18) 1px, transparent 1px);
+            background-size: 28px 28px;
+        }
+
+        /* Omani Pointed Palace Arch Shape */
+        .omani-arch-frame {
+            border-radius: 260px 260px 24px 24px;
+            box-shadow: 0 30px 70px -15px rgba(11, 19, 43, 0.35),
+                        inset 0 0 0 2px rgba(197, 160, 89, 0.5);
+        }
+
+        @media (max-width: 768px) {
+            .omani-arch-frame {
+                border-radius: 160px 160px 20px 20px;
+            }
+        }
+
+        /* Window Shutter & Lighting Transitions */
+        .vista-image {
+            transition: filter 0.9s cubic-bezier(0.22, 1, 0.36, 1), transform 1.2s cubic-bezier(0.22, 1, 0.36, 1), opacity 0.6s ease;
+        }
+
+        .lighting-dawn {
+            filter: brightness(1.02) contrast(1.03) sepia(0.18) hue-rotate(-10deg) saturate(1.15);
+        }
+        .lighting-golden {
+            filter: brightness(1.06) contrast(1.08) sepia(0.25) saturate(1.25);
+        }
+        .lighting-night {
+            filter: brightness(0.62) contrast(1.2) hue-rotate(195deg) saturate(1.3);
+        }
+
+        /* Pulsing Gold Hotspot Pin */
+        @keyframes pulseGold {
+            0% { box-shadow: 0 0 0 0 rgba(229, 201, 139, 0.75); }
+            70% { box-shadow: 0 0 0 16px rgba(229, 201, 139, 0); }
+            100% { box-shadow: 0 0 0 0 rgba(229, 201, 139, 0); }
+        }
+        .hotspot-pin {
+            animation: pulseGold 2.4s infinite;
+        }
+
+        /* Gold Shimmer Text */
+        .gold-gradient-text {
+            background: linear-gradient(135deg, #F2DFB6 0%, #C5A059 50%, #E5C98B 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        /* Custom Scrollbar */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #0B132B;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #C5A059;
+            border-radius: 999px;
+        }
+    </style>
+</head>
+<body class="antialiased selection:bg-gold-500 selection:text-royal-950">
+
+    <!-- ==================== TOP NAVIGATION BAR ==================== -->
+    <header class="sticky top-0 z-40 bg-royal-900/95 backdrop-blur-md border-b border-gold-500/25 text-alabaster transition-all">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-20">
+                
+                <!-- Brand Crest & Identity -->
+                <a href="#" class="flex items-center gap-3.5 group">
+                    <!-- Custom Omani Crest SVG (Amouage Crown / Frankincense Flacon Inspired) -->
+                    <div class="w-11 h-11 rounded-xl border border-gold-500/50 bg-royal-800/80 flex items-center justify-center shadow-lg group-hover:border-gold-400 transition-colors">
+                        <svg class="w-7 h-7 text-gold-400" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M20 4C16 10 8 15 8 24V34H32V24C32 15 24 10 20 4Z" stroke="currentColor" stroke-width="1.6"/>
+                            <path d="M20 10C17.5 14.5 13 18 13 24.5V34H27V24.5C27 18 22.5 14.5 20 10Z" stroke="currentColor" stroke-width="1.2" stroke-dasharray="2 2"/>
+                            <path d="M16 4L20 1.5L24 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                            <circle cx="20" cy="23" r="2.2" fill="currentColor"/>
+                        </svg>
+                    </div>
+                    <div>
+                        <span class="font-poetic text-2xl sm:text-3xl font-bold tracking-wide gold-gradient-text block leading-none">أَمْوَاجُ العُمْرَان</span>
+                        <span class="text-[11px] text-gold-300/80 tracking-widest block mt-1">دار السَّكَن العُمَانِي الفَاخِر</span>
+                    </div>
+                </a>
+
+                <!-- Desktop Navigation Links -->
+                <nav class="hidden md:flex items-center gap-8 text-sm font-medium">
+                    <a href="#window-showcase" class="text-gold-300 hover:text-gold-400 transition-colors flex items-center gap-1.5">
+                        <span class="w-1.5 h-1.5 rounded-full bg-gold-500"></span>
+                        نافذة القصور
+                    </a>
+                    <a href="#editorial-blog" class="text-alabaster/85 hover:text-gold-400 transition-colors">مُدوَّنة العُمْرَان وَالأَثَر</a>
+                    <a href="#sensory-philosophy" class="text-alabaster/85 hover:text-gold-400 transition-colors">فلسفة العِطْر وَالحَجَر</a>
+                </nav>
+
+                <!-- CTA Button: Private Consultation Window -->
+                <div class="flex items-center gap-3">
+                    <button onclick="openConsultationModal()" class="px-4 sm:px-6 py-2.5 rounded-full bg-gradient-to-l from-gold-600 via-gold-500 to-gold-400 text-royal-950 font-semibold text-xs sm:text-sm shadow-lg shadow-gold-500/20 hover:shadow-gold-400/40 hover:scale-[1.02] active:scale-[0.98] transition-all cursor-pointer">
+                        حجز معاينة خاصة
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- ==================== HERO & INTERACTIVE "WINDOW" SHOWCASE ==================== -->
+    <section id="window-showcase" class="relative bg-royal-900 omani-pattern text-alabaster pt-10 pb-20 lg:pt-14 lg:pb-28 overflow-hidden border-b border-gold-500/30">
+        <!-- Ambient Radial Glow -->
+        <div class="absolute top-1/3 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[700px] h-[700px] bg-gold-500/10 rounded-full blur-[130px] pointer-events-none"></div>
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            
+            <!-- Poetic Header -->
+            <div class="text-center max-w-3xl mx-auto mb-10">
+                <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-gold-500/35 bg-royal-800/70 text-gold-300 text-xs mb-4">
+                    <span>✦</span>
+                    <span>حَيْثُ يُصَاغُ المَسْكَنُ كَنَفَحَاتِ اللُّبَانِ وَالعَنْبَر</span>
+                    <span>✦</span>
+                </div>
+                <h1 class="font-poetic text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight text-alabaster mb-4">
+                    أَطِلَّ مِنْ <span class="gold-gradient-text">نَافِذَةِ القَصْرِ</span> عَلَى تُحَفِ عُمَانَ المِعْمَارِيَّة
+                </h1>
+                <p class="text-alabaster/75 text-sm sm:text-base leading-relaxed font-light">
+                    كما تُعتَّقُ أندرُ الزيوت العطرية في دار «أمواج»، نُشيّد قصوراً وفللاً تروي سيرة المكان؛ افتح نافذة كل مشروع، بدّل أوقات النهار، والمس نقاط الارتكاز لتكتشف التناغم بين الحجر والضوء والعطر.
+                </p>
+            </div>
+
+            <!-- Window Selector Tabs (نوافذ المشاريع) -->
+            <div class="flex flex-wrap justify-center gap-3 mb-8" role="tablist" aria-label="نوافذ المشاريع">
+                <button onclick="selectResidence('muscat')" id="tab-muscat" class="residence-tab active px-5 py-2.5 rounded-full text-xs sm:text-sm font-medium border border-gold-400 bg-gold-500 text-royal-950 shadow-md transition-all cursor-pointer">
+                    ١. قصر الموج الملكي — مسقط
+                </button>
+                <button onclick="selectResidence('jabal')" id="tab-jabal" class="residence-tab px-5 py-2.5 rounded-full text-xs sm:text-sm font-medium border border-gold-500/30 bg-royal-800/60 text-gold-300 hover:border-gold-400 transition-all cursor-pointer">
+                    ٢. ملاذ السحاب — الجبل الأخضر
+                </button>
+                <button onclick="selectResidence('salalah')" id="tab-salalah" class="residence-tab px-5 py-2.5 rounded-full text-xs sm:text-sm font-medium border border-gold-500/30 bg-royal-800/60 text-gold-300 hover:border-gold-400 transition-all cursor-pointer">
+                    ٣. فلل شاطئ المغسيل — صلالة
+                </button>
+            </div>
+
+            <!-- MAIN INTERACTIVE PALACE WINDOW & SENSORY INSPECTOR GRID -->
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+                
+                <!-- THE ARCHITECTURAL ARCHED WINDOW (7 Columns on LG) -->
+                <div class="lg:col-span-7 relative">
+                    <!-- Outer Ornate Gold Frame -->
+                    <div class="p-3 sm:p-4 bg-gradient-to-b from-gold-500/30 via-royal-800 to-royal-950 omani-arch-frame relative">
+                        
+                        <!-- Inner Arched Viewport ("النافذة") -->
+                        <div class="relative w-full h-[430px] sm:h-[520px] overflow-hidden omani-arch-frame bg-royal-950 group">
+                            
+                            <!-- Dynamic Residence Architectural Vista -->
+                            <img id="window-vista-img" 
+                                 src="https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&w=1400&q=85" 
+                                 onerror="this.src='https://placehold.co/1200x800/0B132B/E5C98B?text=قصر+الموج+الملكي+-+مسقط'"
+                                 alt="إطلالة معمارية فاخرة" 
+                                 class="w-full h-full object-cover vista-image lighting-golden scale-100 group-hover:scale-105" />
+
+                            <!-- Subtle Mashrabiya Arch Rim & Vignette -->
+                            <div class="absolute inset-0 pointer-events-none bg-gradient-to-t from-royal-950/90 via-transparent to-royal-950/35"></div>
+                            
+                            <!-- Decorative Omani Arch Mullion Lines (تقسيمات النافذة الهندسية) -->
+                            <div class="absolute inset-0 pointer-events-none border-[6px] border-gold-500/20 omani-arch-frame"></div>
+
+                            <!-- Top Window Status Badge -->
+                            <div class="absolute top-6 left-1/2 -translate-x-1/2 z-20 flex items-center gap-2 px-4 py-1.5 rounded-full bg-royal-950/75 backdrop-blur-md border border-gold-500/40 text-xs text-gold-300 whitespace-nowrap">
+                                <span id="window-time-icon">☀️</span>
+                                <span id="window-time-label">إشراقة شمس مسقط الذهبية</span>
+                            </div>
+
+                            <!-- Interactive Hotspots Container (نقاط الاستكشاف داخل النافذة) -->
+                            <div id="window-hotspots-layer" class="absolute inset-0 z-20">
+                                <!-- Injected dynamically via JS -->
+                            </div>
+
+                            <!-- Bottom Window Sill Caption -->
+                            <div class="absolute bottom-5 inset-x-6 z-20 flex flex-col sm:flex-row sm:items-end justify-between gap-3">
+                                <div>
+                                    <span id="window-location-badge" class="text-[11px] uppercase tracking-widest text-gold-400 font-semibold block mb-1">سلطنة عُمان • الموج مسقط</span>
+                                    <h2 id="window-title" class="font-poetic text-2xl sm:text-3xl font-bold text-alabaster">قصر الموج الملكي</h2>
+                                </div>
+                                <div class="flex items-center gap-2 bg-royal-950/80 backdrop-blur-md px-3.5 py-2 rounded-xl border border-gold-500/30 text-xs">
+                                    <span class="text-gold-400">المساحة:</span>
+                                    <span id="window-area" class="font-semibold text-alabaster">١,٤٥٠ م²</span>
+                                    <span class="text-gold-500/40">|</span>
+                                    <span class="text-gold-400">السعر يبدأ من:</span>
+                                    <span id="window-price" class="font-semibold text-gold-300">٩٨٠,٠٠٠ ر.ع</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Window Sill Lighting Controls (أزرار التحكم بإضاءة النافذة وأوقاتها) -->
+                        <div class="mt-4 flex flex-wrap items-center justify-center gap-2 sm:gap-3 px-2">
+                            <span class="text-xs text-gold-300/75 ml-1">أجواء النافذة:</span>
+                            <button onclick="setWindowLighting('dawn')" id="light-dawn" class="light-btn px-3.5 py-1.5 rounded-full text-xs border border-gold-500/30 bg-royal-900/80 text-alabaster/80 hover:border-gold-400 transition-all cursor-pointer">
+                                🌅 فجر الجبل
+                            </button>
+                            <button onclick="setWindowLighting('golden')" id="light-golden" class="light-btn px-3.5 py-1.5 rounded-full text-xs border border-gold-400 bg-gold-500/20 text-gold-300 font-semibold transition-all cursor-pointer">
+                                ☀️ شمس الأصيل
+                            </button>
+                            <button onclick="setWindowLighting('night')" id="light-night" class="light-btn px-3.5 py-1.5 rounded-full text-xs border border-gold-500/30 bg-royal-900/80 text-alabaster/80 hover:border-gold-400 transition-all cursor-pointer">
+                                🌙 سكون الليل
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- SENSORY & ARCHITECTURAL DETAIL CARD (5 Columns on LG) -->
+                <div class="lg:col-span-5">
+                    <div class="rounded-3xl bg-royal-800/75 backdrop-blur-xl border border-gold-500/35 p-6 sm:p-8 shadow-2xl relative overflow-hidden">
+                        <!-- Subtle Corner Ornament -->
+                        <div class="w-24 h-24 border-t-2 border-l-2 border-gold-500/30 rounded-tl-3xl absolute top-3 left-3 pointer-events-none"></div>
+
+                        <div class="flex items-center justify-between border-b border-gold-500/20 pb-4 mb-5">
+                            <div>
+                                <span class="text-xs text-gold-400 font-medium block">بطاقة التفصيل المعماري والحِسّي</span>
+                                <h3 id="hotspot-title" class="font-poetic text-2xl sm:text-3xl font-bold text-alabaster mt-1">المجلس الملكي المطلّ</h3>
+                            </div>
+                            <div class="w-12 h-12 rounded-2xl bg-gold-500/15 border border-gold-500/40 flex items-center justify-center text-2xl" id="hotspot-icon">
+                                🕌
+                            </div>
+                        </div>
+
+                        <!-- Amouage-Inspired Olfactory & Material Pairing Box -->
+                        <div class="rounded-2xl bg-royal-950/70 border border-gold-500/25 p-4 mb-5">
+                            <div class="flex items-center gap-2 text-xs text-gold-400 font-semibold mb-1.5">
+                                <span>✦ البصمة العِطرية للمكان (مستوحاة من أمواج):</span>
+                            </div>
+                            <p id="hotspot-scent" class="font-poetic text-lg text-gold-300">
+                                اللُّبان الحوجري الملكي، خشب الصندل المعتّق، ولمسة من الهيل العُماني
+                            </p>
+                        </div>
+
+                        <!-- Poetic Description -->
+                        <p id="hotspot-desc" class="text-alabaster/85 text-sm sm:text-base leading-relaxed mb-6">
+                            صُمّم المجلس بارتفاع سقف يبلغ ٦.٥ أمتار مع أقواس عُمانية مكسوّة بالرخام العُماني العاجي، حيث يتسلل ضوء العصر عبر المشربيات النحاسية ليرسم ظلالاً هندسية تبعث على السكينة والهيبة.
+                        </p>
+
+                        <!-- Architectural Specifications Grid -->
+                        <div class="grid grid-cols-2 gap-3 mb-6">
+                            <div class="p-3 rounded-xl bg-royal-900/80 border border-gold-500/15">
+                                <span class="text-[11px] text-gold-300/70 block">الخامات النادرة</span>
+                                <span id="hotspot-material" class="text-xs sm:text-sm font-medium text-alabaster mt-0.5 block">رخام صحار العاجي ونحاس مطروق</span>
+                            </div>
+                            <div class="p-3 rounded-xl bg-royal-900/80 border border-gold-500/15">
+                                <span class="text-[11px] text-gold-300/70 block">التوزيع الداخلي</span>
+                                <span id="hotspot-specs" class="text-xs sm:text-sm font-medium text-alabaster mt-0.5 block">٦ أجنحة ملكية + مسبح لا متناهي</span>
+                            </div>
+                        </div>
+
+                        <!-- Action Buttons -->
+                        <div class="flex flex-col sm:flex-row gap-3">
+                            <button onclick="openConsultationModal()" class="flex-1 py-3 px-5 rounded-xl bg-gold-500 hover:bg-gold-400 text-royal-950 font-semibold text-sm transition-all shadow-lg shadow-gold-500/20 cursor-pointer">
+                                طلب ملف المخططات والأسعار
+                            </button>
+                            <button onclick="cycleNextHotspot()" class="py-3 px-4 rounded-xl border border-gold-500/40 hover:bg-gold-500/10 text-gold-300 text-sm font-medium transition-all cursor-pointer">
+                                الزاوية التالية ←
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== SENSORY PHILOSOPHY STRIP (فلسفة أمواج العمران) ==================== -->
+    <section id="sensory-philosophy" class="py-14 bg-sand/70 border-b border-stone">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="flex items-start gap-4 p-5 rounded-2xl bg-alabaster/90 border border-gold-500/25 shadow-sm">
+                    <div class="w-12 h-12 rounded-xl bg-royal-900 text-gold-400 flex items-center justify-center font-poetic text-2xl shrink-0">١</div>
+                    <div>
+                        <h3 class="font-poetic text-xl font-bold text-royal-900 mb-1">النوتة الافتتاحية: الضوء والظل</h3>
+                        <p class="text-xs sm:text-sm text-charcoal/75 leading-relaxed">توجيه معماري مدروس يروّض شمس الخليج عبر المشربيات والأفنية الداخلية لتمنح الدار برودةً طبيعية وإشراقاً شاعرياً.</p>
+                    </div>
+                </div>
+                <div class="flex items-start gap-4 p-5 rounded-2xl bg-alabaster/90 border border-gold-500/25 shadow-sm">
+                    <div class="w-12 h-12 rounded-xl bg-royal-900 text-gold-400 flex items-center justify-center font-poetic text-2xl shrink-0">٢</div>
+                    <div>
+                        <h3 class="font-poetic text-xl font-bold text-royal-900 mb-1">قلب العِطر: الحِرفة العُمانية</h3>
+                        <p class="text-xs sm:text-sm text-charcoal/75 leading-relaxed">نقوش الجبس اليدوي، خشب الساج المنحوت، والنحاس العُماني المعتّق بأيدي أمهر الحرفيين من نزوى وبهلاء.</p>
+                    </div>
+                </div>
+                <div class="flex items-start gap-4 p-5 rounded-2xl bg-alabaster/90 border border-gold-500/25 shadow-sm">
+                    <div class="w-12 h-12 rounded-xl bg-royal-900 text-gold-400 flex items-center justify-center font-poetic text-2xl shrink-0">٣</div>
+                    <div>
+                        <h3 class="font-poetic text-xl font-bold text-royal-900 mb-1">القاعدة الخالدة: قيمة الأثر</h3>
+                        <p class="text-xs sm:text-sm text-charcoal/75 leading-relaxed">مواقع استراتيجية نادرة في سلطنة عُمان تضمن إرثاً سكنياً يتوارثه الأبناء وعائداً استثمارياً مستداماً.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== LUXURY ARCHITECTURAL BLOG (مدونة العمران والأثر) ==================== -->
+    <section id="editorial-blog" class="py-20 bg-alabaster omani-pattern-light">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            
+            <!-- Section Title & Category Filter Pills -->
+            <div class="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-12 border-b border-stone pb-8">
+                <div>
+                    <span class="text-xs font-semibold tracking-widest text-gold-600 uppercase block mb-2">مَجَلَّةُ الدَّارِ المِعْمَارِيَّة</span>
+                    <h2 class="font-poetic text-3xl sm:text-5xl font-bold text-royal-900">مُدوَّنة العُمْرَان وَالأَثَر</h2>
+                    <p class="text-charcoal/70 text-sm sm:text-base mt-2 max-w-xl">
+                        مقالات وتأملات في فلسفة السكن الفاخر، أسرار الخامات العُمانية النادرة، وفنون تصميم القصور المعاصرة.
+                    </p>
+                </div>
+
+                <!-- Category Filters -->
+                <div class="flex flex-wrap gap-2" id="blog-filters">
+                    <button onclick="filterArticles('all')" class="filter-btn active px-4 py-2 rounded-full text-xs font-semibold bg-royal-900 text-gold-300 border border-royal-900 transition-all cursor-pointer">
+                        جميع المقالات
+                    </button>
+                    <button onclick="filterArticles('philosophy')" class="filter-btn px-4 py-2 rounded-full text-xs font-medium bg-white text-royal-900 border border-stone hover:border-gold-500 transition-all cursor-pointer">
+                        فلسفة العمارة
+                    </button>
+                    <button onclick="filterArticles('craft')" class="filter-btn px-4 py-2 rounded-full text-xs font-medium bg-white text-royal-900 border border-stone hover:border-gold-500 transition-all cursor-pointer">
+                        الحِرَف والخامات
+                    </button>
+                    <button onclick="filterArticles('lifestyle')" class="filter-btn px-4 py-2 rounded-full text-xs font-medium bg-white text-royal-900 border border-stone hover:border-gold-500 transition-all cursor-pointer">
+                        أسلوب الحياة
+                    </button>
+                </div>
+            </div>
+
+            <!-- FEATURED EDITORIAL ARTICLE (المقال الافتتاحي المميز) -->
+            <article onclick="openArticleModal(0)" class="group cursor-pointer rounded-3xl bg-royal-900 text-alabaster overflow-hidden shadow-2xl border border-gold-500/30 mb-14 grid grid-cols-1 lg:grid-cols-12 transition-transform duration-500 hover:-translate-y-1">
+                <div class="lg:col-span-7 relative h-72 sm:h-96 lg:h-auto overflow-hidden">
+                    <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1300&q=85" 
+                         onerror="this.src='https://placehold.co/1000x700/0B132B/E5C98B?text=بين+حجر+الجبل+وعبق+اللبان'"
+                         alt="بين حجر الجبل وعبق اللبان" 
+                         class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
+                    <div class="absolute inset-0 bg-gradient-to-t from-royal-900 via-transparent to-transparent lg:bg-gradient-to-l lg:from-royal-900 lg:via-transparent"></div>
+                    <span class="absolute top-5 right-5 px-4 py-1.5 rounded-full bg-gold-500 text-royal-950 font-bold text-xs shadow-lg">
+                        ✦ المقال الافتتاحي
+                    </span>
+                </div>
+                <div class="lg:col-span-5 p-7 sm:p-10 flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center gap-3 text-xs text-gold-400 mb-4">
+                            <span>فلسفة العمارة</span>
+                            <span>•</span>
+                            <span>٦ دقائق للقراءة</span>
+                        </div>
+                        <h3 class="font-poetic text-2xl sm:text-4xl font-bold leading-snug text-alabaster group-hover:text-gold-300 transition-colors mb-4">
+                            بَيْنَ حَجَرِ الجَبَلِ وَعَبَقِ اللُّبَان: كَيْفَ نَصُوغُ مَسْكَناً يَرْوِي حِكَايَةَ عُمَان؟
+                        </h3>
+                        <p class="text-alabaster/75 text-sm leading-relaxed mb-6">
+                            في عالم العمارة السريعة، تعود «أمواج العمران» إلى الجذور؛ حيث يُعامل الحجر الجيري العُماني كما تُعامل زهرة الورد الجبلي في التقطير، ليولد مسكنٌ يتنفس الهدوء ويحتفظ بذاكرة المكان عبر الأجيال.
+                        </p>
+                    </div>
+                    <div class="flex items-center justify-between pt-5 border-t border-gold-500/20">
+                        <div class="flex items-center gap-3">
+                            <div class="w-9 h-9 rounded-full bg-gold-500/20 border border-gold-400 flex items-center justify-center font-poetic text-gold-300 font-bold">م</div>
+                            <div>
+                                <span class="text-xs font-semibold text-alabaster block">م. طارق بن سعيد البوسعيدي</span>
+                                <span class="text-[11px] text-gold-300/70">كبير المعماريين في أمواج العمران</span>
+                            </div>
+                        </div>
+                        <span class="text-gold-400 text-sm font-semibold group-hover:-translate-x-1 transition-transform">اقرأ المقال ←</span>
+                    </div>
+                </div>
+            </article>
+
+            <!-- BLOG ARTICLES GRID (شبكة مقالات المدونة) -->
+            <div id="articles-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Populated dynamically via JS -->
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ==================== FOOTER ==================== -->
+    <footer class="bg-royal-950 text-alabaster border-t border-gold-500/30 pt-16 pb-10">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-10 pb-12 border-b border-gold-500/15">
+                <div class="md:col-span-2">
+                    <span class="font-poetic text-3xl font-bold gold-gradient-text block mb-3">أَمْوَاجُ العُمْرَان</span>
+                    <p class="text-alabaster/70 text-sm leading-relaxed max-w-md mb-6">
+                        دار عُمانية رائدة في تطوير المجمعات السكنية والقصور الفاخرة، نستلهم من إرث عُمان العطري والمعماري لنبتكر مساحات سكنية تنبض بالفخامة والخلود.
+                    </p>
+                    <div class="flex items-center gap-4 text-xs text-gold-300/80">
+                        <span>مسقط • شاطئ القرم</span>
+                        <span>|</span>
+                        <span>الجبل الأخضر</span>
+                        <span>|</span>
+                        <span>صلالة</span>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="font-poetic text-xl text-gold-400 font-bold mb-4">نوافذ المشاريع</h4>
+                    <ul class="space-y-2.5 text-sm text-alabaster/75">
+                        <li><a href="#window-showcase" onclick="selectResidence('muscat')" class="hover:text-gold-300 transition-colors">قصر الموج الملكي — مسقط</a></li>
+                        <li><a href="#window-showcase" onclick="selectResidence('jabal')" class="hover:text-gold-300 transition-colors">ملاذ السحاب — الجبل الأخضر</a></li>
+                        <li><a href="#window-showcase" onclick="selectResidence('salalah')" class="hover:text-gold-300 transition-colors">فلل شاطئ المغسيل — صلالة</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-poetic text-xl text-gold-400 font-bold mb-4">تواصل النخبة</h4>
+                    <p class="text-sm text-alabaster/75 mb-3">الرقم المجاني الخاص: <span dir="ltr" class="text-gold-300 font-semibold">800 77990</span></p>
+                    <p class="text-sm text-alabaster/75 mb-4">vip@amwaj-alumran.om</p>
+                    <button onclick="openConsultationModal()" class="px-5 py-2.5 rounded-full border border-gold-500 text-gold-300 hover:bg-gold-500 hover:text-royal-950 text-xs font-semibold transition-all cursor-pointer">
+                        طلب دعوة زيارة خاصة
+                    </button>
+                </div>
+            </div>
+            <div class="pt-8 flex flex-col sm:flex-row items-center justify-between text-xs text-alabaster/50 gap-4">
+                <p>© ٢٠٢٦ أمواج العمران للتطوير العقاري الفاخر — سلطنة عُمان. جميع الحقوق محفوظة.</p>
+                <p class="font-poetic text-gold-400/80 text-sm">«حيثُ يُصاغُ السَّكَنُ كالعِطْرِ العُمَانِيِّ الأَصِيل»</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ==================== MODAL 1: LUXURY BLOG ARTICLE READER WINDOW (نافذة قراءة المقال) ==================== -->
+    <div id="article-modal" class="fixed inset-0 z-50 hidden items-center justify-center p-4 sm:p-6 bg-royal-950/85 backdrop-blur-md overflow-y-auto">
+        <div class="relative w-full max-w-4xl bg-alabaster text-charcoal rounded-3xl shadow-2xl border-2 border-gold-500/50 overflow-hidden my-auto max-h-[90vh] flex flex-col">
+            
+            <!-- Modal Top Bar -->
+            <div class="flex items-center justify-between px-6 py-4 bg-royal-900 text-alabaster border-b border-gold-500/30 shrink-0">
+                <div class="flex items-center gap-2 text-xs text-gold-300">
+                    <span>✦ نافذة القراءة المعمارية</span>
+                    <span>•</span>
+                    <span id="modal-article-category">فلسفة العمارة</span>
+                </div>
+                <button onclick="closeArticleModal()" class="w-9 h-9 rounded-full bg-royal-800 hover:bg-gold-500 hover:text-royal-950 text-gold-300 flex items-center justify-center transition-colors cursor-pointer" aria-label="إغلاق">
+                    ✕
+                </button>
+            </div>
+
+            <!-- Scrollable Article Content -->
+            <div class="overflow-y-auto p-6 sm:p-10 space-y-6">
+                <div class="rounded-2xl overflow-hidden h-64 sm:h-80 relative shadow-lg">
+                    <img id="modal-article-img" src="" alt="" class="w-full h-full object-cover" />
+                </div>
+
+                <div class="flex flex-wrap items-center gap-4 text-xs text-charcoal/60">
+                    <span id="modal-article-date">١٢ نوفمبر ٢٠٢٦</span>
+                    <span>•</span>
+                    <span id="modal-article-readtime">٥ دقائق للقراءة</span>
+                    <span>•</span>
+                    <span id="modal-article-author" class="font-semibold text-royal-900">بقلم: هيئة تحرير أمواج العمران</span>
+                </div>
+
+                <h2 id="modal-article-title" class="font-poetic text-3xl sm:text-4xl font-bold text-royal-900 leading-snug"></h2>
+
+                <!-- Poetic Pull Quote -->
+                <blockquote id="modal-article-quote" class="p-5 rounded-2xl bg-sand border-r-4 border-gold-500 font-poetic text-xl sm:text-2xl text-royal-900 italic"></blockquote>
+
+                <!-- Rich Paragraphs -->
+                <div id="modal-article-body" class="space-y-4 text-charcoal/85 text-base leading-loose"></div>
+
+                <!-- Sensory Pairing Footer Inside Reader -->
+                <div class="p-5 rounded-2xl bg-royal-900 text-alabaster flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 mt-8">
+                    <div>
+                        <span class="text-xs text-gold-400 block">هل ألهمتك هذه الرؤية المعمارية؟</span>
+                        <p class="font-poetic text-lg text-alabaster">احجز جلسة استشارية خاصة مع مهندسي الدار لتصميم مسكنك.</p>
+                    </div>
+                    <button onclick="closeArticleModal(); openConsultationModal();" class="px-5 py-2.5 rounded-full bg-gold-500 text-royal-950 font-semibold text-xs whitespace-nowrap hover:bg-gold-400 transition-colors cursor-pointer">
+                        احجز استشارتك الآن
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ==================== MODAL 2: PRIVATE VIP CONSULTATION WINDOW (نافذة الاستشارة الخاصة) ==================== -->
+    <div id="consultation-modal" class="fixed inset-0 z-50 hidden items-center justify-center p-4 bg-royal-950/85 backdrop-blur-md">
+        <div class="relative w-full max-w-lg bg-royal-900 text-alabaster rounded-3xl border border-gold-500/50 shadow-2xl p-6 sm:p-8 overflow-hidden">
+            
+            <button onclick="closeConsultationModal()" class="absolute top-5 left-5 w-9 h-9 rounded-full bg-royal-800 hover:bg-gold-500 hover:text-royal-950 text-gold-300 flex items-center justify-center transition-colors cursor-pointer">
+                ✕
+            </button>
+
+            <div id="consultation-form-container">
+                <span class="text-xs text-gold-400 tracking-widest block mb-1">✦ خدمة كبار الشخصيات</span>
+                <h3 class="font-poetic text-3xl font-bold text-alabaster mb-2">نافذة الاستشارة والمعاينة الخاصة</h3>
+                <p class="text-xs sm:text-sm text-alabaster/70 mb-6">
+                    يسعد مستشارو «أمواج العمران» باستقبالكم في صالة العرض الخاصة بشاطئ القرم أو ترتيب جولة افتراضية حصرية.
+                </p>
+
+                <form onsubmit="handleConsultationSubmit(event)" class="space-y-4">
+                    <div>
+                        <label class="block text-xs text-gold-300 mb-1.5">الاسم الكريم / اللقب</label>
+                        <input type="text" required placeholder="مثال: الشيخ / سيف بن حمد الرواحي" class="w-full px-4 py-3 rounded-xl bg-royal-950/80 border border-gold-500/30 text-alabaster text-sm focus:outline-none focus:border-gold-400" />
+                    </div>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                        <div>
+                            <label class="block text-xs text-gold-300 mb-1.5">رقم الهاتف (واتساب)</label>
+                            <input type="tel" required dir="ltr" placeholder="+968 9XXX XXXX" class="w-full px-4 py-3 rounded-xl bg-royal-950/80 border border-gold-500/30 text-alabaster text-sm text-right focus:outline-none focus:border-gold-400" />
+                        </div>
+                        <div>
+                            <label class="block text-xs text-gold-300 mb-1.5">النافذة المعمارية المفضلة</label>
+                            <select class="w-full px-4 py-3 rounded-xl bg-royal-950/80 border border-gold-500/30 text-alabaster text-sm focus:outline-none focus:border-gold-400">
+                                <option>قصر الموج الملكي — مسقط</option>
+                                <option>ملاذ السحاب — الجبل الأخضر</option>
+                                <option>فلل شاطئ المغسيل — صلالة</option>
+                                <option>تصميم قصر خاص حسب الطلب</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div>
+                        <label class="block text-xs text-gold-300 mb-1.5">ملاحظات أو تفضيلات خاصة</label>
+                        <textarea rows="2" placeholder="أخبرنا عن المساحة المطلوبة أو موعد الزيارة المناسب..." class="w-full px-4 py-2.5 rounded-xl bg-royal-950/80 border border-gold-500/30 text-alabaster text-sm focus:outline-none focus:border-gold-400"></textarea>
+                    </div>
+                    <button type="submit" class="w-full py-3.5 rounded-xl bg-gradient-to-l from-gold-600 via-gold-500 to-gold-400 text-royal-950 font-bold text-sm shadow-lg hover:brightness-105 transition-all cursor-pointer">
+                        تأكيد طلب المعاينة الخاصة
+                    </button>
+                </form>
+            </div>
+
+            <!-- Confirmation Message Box (Replaces alert()) -->
+            <div id="consultation-success" class="hidden text-center py-8 space-y-4">
+                <div class="w-16 h-16 rounded-full bg-gold-500/20 border border-gold-400 text-gold-400 flex items-center justify-center text-3xl mx-auto">
+                    ✓
+                </div>
+                <h4 class="font-poetic text-3xl font-bold gold-gradient-text">تم تسجيل دعوتكم بكل حفاوة</h4>
+                <p class="text-sm text-alabaster/80 leading-relaxed">
+                    سيتواصل معكم مدير علاقات النخبة في «أمواج العمران» خلال ساعتين لتنسيق موعدكم الخاص وتقديم ملف المشاريع الحصري.
+                </p>
+                <button onclick="closeConsultationModal()" class="mt-4 px-6 py-2.5 rounded-full border border-gold-400 text-gold-300 text-xs font-semibold hover:bg-gold-500 hover:text-royal-950 transition-colors cursor-pointer">
+                    العودة إلى نافذة القصور
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- ==================== INTERACTIVE JAVASCRIPT ENGINE ==================== -->
+    <script>
+        // 1. DATA: Luxury Residences for the Interactive Window Portal
+        const residencesData = {
+            muscat: {
+                title: "قصر الموج الملكي",
+                location: "سلطنة عُمان • الواجهة البحرية بالموج مسقط",
+                area: "١,٤٥٠ م²",
+                price: "٩٨٠,٠٠٠ ر.ع",
+                image: "https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&w=1400&q=85",
+                hotspots: [
+                    {
+                        id: 0,
+                        x: "28%",
+                        y: "44%",
+                        label: "المجلس الملكي",
+                        title: "المجلس الملكي المطلّ",
+                        icon: "🕌",
+                        scent: "اللُّبان الحوجري الملكي، خشب الصندل المعتّق، ولمسة من الهيل العُماني",
+                        desc: "صُمّم المجلس بارتفاع سقف يبلغ ٦.٥ أمتار مع أقواس عُمانية مكسوّة بالرخام العُماني العاجي، حيث يتسلل ضوء العصر عبر المشربيات النحاسية ليرسم ظلالاً هندسية تبعث على السكينة.",
+                        material: "رخام صحار العاجي ونحاس مطروق",
+                        specs: "٦ أجنحة ملكية + مجلس ضيافة مستقل"
+                    },
+                    {
+                        id: 1,
+                        x: "66%",
+                        y: "58%",
+                        label: "المسبح اللامتناهي",
+                        title: "مرآة الماء والنسيم البحري",
+                        icon: "🌊",
+                        scent: "العنبر الرمادي، ملح بحر عُمان، وزهر البرتقال",
+                        desc: "حوض سباحة لا متناهٍ يندمج بصرياً مع أفق بحر عُمان، محاط بأرضيات من الحجر الجيري المقاوم للحرارة وجلسات غائرة تعانق نسيم المساء.",
+                        material: "حجر ترافرتين طبيعي وفسيفساء ذهبية",
+                        specs: "إطلالة بحرية مباشرة بطول ٣٢ متراً"
+                    },
+                    {
+                        id: 2,
+                        x: "48%",
+                        y: "30%",
+                        label: "جناح السحاب",
+                        title: "الجناح الرئيسي والشرفة البانورامية",
+                        icon: "👑",
+                        scent: "العود الكمبودي المعتّق، الورد الدمشقي، والمسك الأبيض",
+                        desc: "ملاذ علوي يجمع بين الخصوصية المطلقة والإطلالة المفتوحة، يضم غرفة ملابس مصممة بخشب الجوز وحماماً رُخامياً مستوحى من الحمامات السلطانية.",
+                        material: "خشب الساج البورمي ورخام كلكتا",
+                        specs: "مساحة الجناح ٢١٠ م² مع تراس خاص"
+                    }
+                ]
+            },
+            jabal: {
+                title: "ملاذ السحاب الحجري",
+                location: "سلطنة عُمان • حافة الجبل الأخضر (٢,٠٠٠ متر فوق سطح البحر)",
+                area: "١,١٢٠ م²",
+                price: "٨٤٠,٠٠٠ ر.ع",
+                image: "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1400&q=85",
+                hotspots: [
+                    {
+                        id: 0,
+                        x: "35%",
+                        y: "48%",
+                        label: "الواجهة الجبلية",
+                        title: "جدران الصخر الجبلي المنحوت",
+                        icon: "⛰️",
+                        scent: "الورد الجبلي العُماني المقطّر، السرو، وراتنج اللبان",
+                        desc: "شُيّدت الواجهات من أحجار الجبل الأخضر المحلية لتندمج مع المدرجات الزراعية، مما يوفر عزلاً حرارياً طبيعياً في الشتاء البارد والصيف المعتدل.",
+                        material: "حجر جيري عُماني منحوت يدوياً",
+                        specs: "٤ أجنحة بانورامية + موقد نار خارجي"
+                    },
+                    {
+                        id: 1,
+                        x: "68%",
+                        y: "40%",
+                        label: "شرفة المدرجات",
+                        title: "شرفة التأمل فوق الوادي",
+                        icon: "🌹",
+                        scent: "ماء الورد الجبلي، الزعفران، وخشب الأرز",
+                        desc: "شرفة زجاجية معلّقة تطل مباشرة على وديان الرمان والورد الجبلي، حيث يلامس الضباب الصباحي أطراف القصر في مشهد شاعري لا يتكرر.",
+                        material: "زجاج مزدوج عازل وإطارات برونزية",
+                        specs: "إطلالة بزاوية ٢٧٠ درجة على الوادي"
+                    }
+                ]
+            },
+            salalah: {
+                title: "فلل شاطئ المغسيل",
+                location: "سلطنة عُمان • محافظة ظفار — صلالة",
+                area: "١,٦٨٠ م²",
+                price: "١,١٥٠,٠٠٠ ر.ع",
+                image: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1400&q=85",
+                hotspots: [
+                    {
+                        id: 0,
+                        x: "42%",
+                        y: "52%",
+                        label: "فناء الخريف",
+                        title: "الفناء الداخلي وحديقة اللبان",
+                        icon: "🌿",
+                        scent: "اللبان الظفاري الأخضر، ندى الخريف، والياسمين",
+                        desc: "فناء مفتوح تتوسطه نافورة مائية تحيط بها أشجار اللبان الظفارية، صُمّم ليحتفي بموسم الخريف ورذاذ المطر المنعش في أجواء استوائية ملكية.",
+                        material: "حجر صلالة الأبيض وأخشاب مقاومة للرطوبة",
+                        specs: "٧ أجنحة + حديقة استوائية خاصة"
+                    },
+                    {
+                        id: 1,
+                        x: "72%",
+                        y: "36%",
+                        label: "مجلس الشاطئ",
+                        title: "المجلس الزجاجي المطل على المحيط",
+                        icon: "🌅",
+                        scent: "البخور الظفاري، الفانيليا، وخشب الغاياك",
+                        desc: "واجهة زجاجية ممتدة من الأرض إلى السقف تمنحك مشهداً حياً لأمواج بحر العرب المتلاطمة مع خصوصية تامة بفضل تصميم المناسيب المتدرجة.",
+                        material: "رخام كريم مارفيل ونحاس عتيق",
+                        specs: "وصول خاص مباشر إلى الشاطئ الرملي"
+                    }
+                ]
+            }
+        };
+
+        // 2. DATA: Luxury Editorial Blog Articles
+        const blogArticles = [
+            {
+                id: 0,
+                category: "philosophy",
+                categoryLabel: "فلسفة العمارة",
+                title: "بَيْنَ حَجَرِ الجَبَلِ وَعَبَقِ اللُّبَان: كَيْفَ نَصُوغُ مَسْكَناً يَرْوِي حِكَايَةَ عُمَان؟",
+                excerpt: "في عالم العمارة السريعة، تعود «أمواج العمران» إلى الجذور؛ حيث يُعامل الحجر الجيري العُماني كما تُعامل زهرة الورد الجبلي في التقطير.",
+                date: "١٠ نوفمبر ٢٠٢٦",
+                readTime: "٦ دقائق",
+                author: "م. طارق بن سعيد البوسعيدي",
+                image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1000&q=80",
+                quote: "«العمارة الحقيقية ليست جدراناً تُشيّد، بل هي عِطرٌ مكانيّ يبقى عالقاً في الذاكرة كلما عبرتَ عتبة الدار.»",
+                paragraphs: [
+                    "حين نستحضر اسم «أمواج»، يتبادر إلى الذهن فوراً ذلك التوازن الدقيق بين الجرأة والوقار، بين ندرة المكونات ودقة الصياغة. ومن هذا المنطلق الفلسفي ذاته، ولدت رؤية «أمواج العمران» لتعيد تعريف السكن الفاخر في سلطنة عُمان.",
+                    "إننا ننظر إلى كل قصر أو فيلا كقارورة عطرٍ معمارية؛ تبدأ بنوتتها الافتتاحية لحظة دخولك من البوابة الخشبية المنقوشة، مروراً بقلب الدار حيث الفناء والماء والضوء، وصولاً إلى الاستقرار الدائم في الأجنحة الخاصة.",
+                    "نعتمد في مشاريعنا على الحجر العُماني المستخرج من محاجرنا المحلية، والذي يكتسب مع مرور السنين جمالاً وتعتيقاً يزيده هيبة، تماماً كالعود المعتّق الذي يزداد قيمة كلما طال به الزمن."
+                ]
+            },
+            {
+                id: 1,
+                category: "craft",
+                categoryLabel: "الحِرَف والخامات",
+                title: "هَنْدَسَةُ الضَّوْءِ وَالظِّلِّ فِي المَشْرَبِيَّةِ العُمَانِيَّةِ المُعَاصِرَة",
+                excerpt: "كيف تحولت النوافذ التقليدية في القلاع والحصون العُمانية إلى عناصر معمارية ذكية ترسم لوحات ضوئية متغيرة على مدار اليوم.",
+                date: "٢ نوفمبر ٢٠٢٦",
+                readTime: "٤ دقائق",
+                author: "م. سارة بنت علي الكندية",
+                image: "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1000&q=80",
+                quote: "«النافذة في العمارة العُمانية ليست مجرد فتحة للتهوية، بل هي مصفاةٌ شاعرية تُهذّب وهج الشمس وتحوّله إلى سكينة.»",
+                paragraphs: [
+                    "لطالما كانت النافذة العُمانية عنواناً للخصوصية والجمال؛ فهي تسمح لأهل الدار بمراقبة الخارج دون أن يُكشف ستر الداخل. في تصاميمنا الحديثة، أعدنا ابتكار المشربية باستخدام ألواح النحاس المؤكسد والخشب المعالج بالليزر الدقيق.",
+                    "مع حركة الشمس من الفجر وحتى الأصيل، تتحول الجدران الداخلية للصالات والمجالس إلى مسرحٍ حيّ للظلال الهندسية المستوحاة من زخارف حصن جبرين وقصر العلم.",
+                    "إلى جانب قيمتها الجمالية، تساهم هذه النوافذ الذكية في خفض الحرارة الداخلية بنسبة تصل إلى ٤٠٪، مما يجعل المسكن واحةً من الاعتدال الطبيعي."
+                ]
+            },
+            {
+                id: 2,
+                category: "craft",
+                categoryLabel: "الحِرَف والخامات",
+                title: "الرُّخَامُ العُمَانِيُّ وَالنُّحَاسُ المُعَتَّق: سِيمْفُونِيَّةُ الخَامَاتِ النَّادِرَة",
+                excerpt: "رحلة داخل ورش الحرفيين العُمانيين لاختيار ألواح الرخام الكريمي وتطعيم الأبواب بالنحاس المطروق يدوياً.",
+                date: "٢٤ أكتوبر ٢٠٢٦",
+                readTime: "٥ دقائق",
+                author: "د. هيثم بن ناصر المعولي",
+                image: "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=1000&q=80",
+                quote: "«حين يلتقي برود الرخام العُماني بدفء النحاس المطروق، يولد حوارٌ بصري يجمع بين الصلابة والرقة.»",
+                paragraphs: [
+                    "يتميّز الرخام العُماني بدرجاته اللونية الدافئة التي تتراوح بين العاجي الصافي والرملي الذهبي، وهو ما يجعله الخيار الأول لأرقى القصور حول العالم.",
+                    "في كل وحدة سكنية تطورها «أمواج العمران»، يتم انتقاء ألواح الرخام يدوياً لضمان استمرارية العروق الطبيعية عبر الأرضيات والجدران دون انقطاع.",
+                    "ونُتوّج هذه المساحات بتفاصيل النحاس العُماني المصنوع في نزوى، سواء في مقابض الأبواب الملكية أو فوانيس الإضاءة المعلقة التي تضفي وهجاً دافئاً يشبه ضوء الشموع."
+                ]
+            },
+            {
+                id: 3,
+                category: "lifestyle",
+                categoryLabel: "أسلوب الحياة",
+                title: "المَجْلِسُ العُمَانِيُّ فِي القَرْنِ الحَادِي وَالعِشْرِينَ: مِحْرَابُ الضِّيَافَةِ وَالكَرَم",
+                excerpt: "تطوير مفهوم المجلس التقليدي ليجمع بين هيبة الاستقبال السلطاني وأحدث تقنيات الراحة والصوتيات الخفية.",
+                date: "١٥ أكتوبر ٢٠٢٦",
+                readTime: "٥ دقائق",
+                author: "م. طارق بن سعيد البوسعيدي",
+                image: "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1000&q=80",
+                quote: "«المجلس هو قلب الدار النابض؛ فيه تُكرم الضيافة بالقهوة واللبان، ومنه تبدأ حكايات المودة.»",
+                paragraphs: [
+                    "يحتل المجلس مكانةً مقدسة في الثقافة العُمانية، لذا نمنحه في تصاميمنا المساحة الأرحب والإطلالة الأجمل، مع مدخل مستقل يضمن خصوصية العائلة التامة.",
+                    "نحرص على دمج أنظمة التعطير المركزية الخفية داخل مجاري التكييف في المجلس، بحيث تفوح نفحات اللبان الحوجري والعود بنعومة متوازنة ترحب بالضيوف قبل أن تُقدّم القهوة العُمانية.",
+                    "كما تُدمج أنظمة الإضاءة الذكية والستائر الآلية خلف الكرانيش الجبسية المنقوشة، لتبقى الأصالة البصرية هي سيدة المشهد دون أي تشويش تقني."
+                ]
+            }
+        ];
+
+        // 3. STATE MANAGEMENT
+        let currentResidenceKey = 'muscat';
+        let currentHotspotIndex = 0;
+
+        // 4. INITIALIZATION
+        window.addEventListener('DOMContentLoaded', () => {
+            renderResidence('muscat');
+            renderBlogCards('all');
+        });
+
+        // 5. WINDOW PORTAL LOGIC
+        function selectResidence(key) {
+            currentResidenceKey = key;
+            currentHotspotIndex = 0;
+
+            // Update Tab Styling
+            document.querySelectorAll('.residence-tab').forEach(btn => {
+                btn.classList.remove('bg-gold-500', 'text-royal-950', 'border-gold-400', 'shadow-md');
+                btn.classList.add('bg-royal-800/60', 'text-gold-300', 'border-gold-500/30');
+            });
+            const activeTab = document.getElementById(`tab-${key}`);
+            if (activeTab) {
+                activeTab.classList.remove('bg-royal-800/60', 'text-gold-300', 'border-gold-500/30');
+                activeTab.classList.add('bg-gold-500', 'text-royal-950', 'border-gold-400', 'shadow-md');
+            }
+
+            renderResidence(key);
+        }
+
+        function renderResidence(key) {
+            const data = residencesData[key];
+            const imgEl = document.getElementById('window-vista-img');
+            
+            // Smooth fade transition for image
+            imgEl.style.opacity = '0.35';
+            setTimeout(() => {
+                imgEl.src = data.image;
+                imgEl.style.opacity = '1';
+            }, 220);
+
+            document.getElementById('window-title').textContent = data.title;
+            document.getElementById('window-location-badge').textContent = data.location;
+            document.getElementById('window-area').textContent = data.area;
+            document.getElementById('window-price').textContent = data.price;
+
+            // Render Hotspots inside the Arched Window
+            const hotspotsLayer = document.getElementById('window-hotspots-layer');
+            hotspotsLayer.innerHTML = '';
+
+            data.hotspots.forEach((spot, idx) => {
+                const btn = document.createElement('button');
+                btn.style.left = spot.x;
+                btn.style.top = spot.y;
+                btn.className = `hotspot-pin absolute -translate-x-1/2 -translate-y-1/2 group flex items-center gap-2 px-3 py-1.5 rounded-full transition-all cursor-pointer ${
+                    idx === currentHotspotIndex 
+                    ? 'bg-gold-500 text-royal-950 font-bold scale-110 z-30' 
+                    : 'bg-royal-950/85 text-gold-300 border border-gold-400/70 hover:bg-gold-500 hover:text-royal-950 z-20'
+                }`;
+                btn.innerHTML = `
+                    <span class="w-2.5 h-2.5 rounded-full ${idx === currentHotspotIndex ? 'bg-royal-950' : 'bg-gold-400'}"></span>
+                    <span class="text-xs whitespace-nowrap">${spot.label}</span>
+                `;
+                btn.onclick = () => {
+                    currentHotspotIndex = idx;
+                    renderResidence(currentResidenceKey);
+                };
+                hotspotsLayer.appendChild(btn);
+            });
+
+            // Update Right-Side Sensory Inspector Card
+            const activeSpot = data.hotspots[currentHotspotIndex];
+            document.getElementById('hotspot-title').textContent = activeSpot.title;
+            document.getElementById('hotspot-icon').textContent = activeSpot.icon;
+            document.getElementById('hotspot-scent').textContent = activeSpot.scent;
+            document.getElementById('hotspot-desc').textContent = activeSpot.desc;
+            document.getElementById('hotspot-material').textContent = activeSpot.material;
+            document.getElementById('hotspot-specs').textContent = activeSpot.specs;
+        }
+
+        function cycleNextHotspot() {
+            const total = residencesData[currentResidenceKey].hotspots.length;
+            currentHotspotIndex = (currentHotspotIndex + 1) % total;
+            renderResidence(currentResidenceKey);
+        }
+
+        // Window Lighting Modes (فجر الجبل / شمس الأصيل / سكون الليل)
+        function setWindowLighting(mode) {
+            const imgEl = document.getElementById('window-vista-img');
+            const labelEl = document.getElementById('window-time-label');
+            const iconEl = document.getElementById('window-time-icon');
+
+            imgEl.classList.remove('lighting-dawn', 'lighting-golden', 'lighting-night');
+
+            document.querySelectorAll('.light-btn').forEach(btn => {
+                btn.classList.remove('border-gold-400', 'bg-gold-500/20', 'text-gold-300', 'font-semibold');
+                btn.classList.add('border-gold-500/30', 'bg-royal-900/80', 'text-alabaster/80');
+            });
+
+            const activeBtn = document.getElementById(`light-${mode}`);
+            activeBtn.classList.remove('border-gold-500/30', 'bg-royal-900/80', 'text-alabaster/80');
+            activeBtn.classList.add('border-gold-400', 'bg-gold-500/20', 'text-gold-300', 'font-semibold');
+
+            if (mode === 'dawn') {
+                imgEl.classList.add('lighting-dawn');
+                iconEl.textContent = '🌅';
+                labelEl.textContent = 'نسائم الفجر الأولى وندى الصباح';
+            } else if (mode === 'golden') {
+                imgEl.classList.add('lighting-golden');
+                iconEl.textContent = '☀️';
+                labelEl.textContent = 'إشراقة شمس عُمان الذهبية';
+            } else if (mode === 'night') {
+                imgEl.classList.add('lighting-night');
+                iconEl.textContent = '🌙';
+                labelEl.textContent = 'سكون الليل وإضاءة الفوانيس الملكية';
+            }
+        }
+
+        // 6. BLOG FILTERING & RENDERING
+        function filterArticles(category) {
+            document.querySelectorAll('.filter-btn').forEach(btn => {
+                btn.classList.remove('bg-royal-900', 'text-gold-300', 'border-royal-900', 'font-semibold');
+                btn.classList.add('bg-white', 'text-royal-900', 'border-stone', 'font-medium');
+            });
+            event.target.classList.remove('bg-white', 'text-royal-900', 'border-stone', 'font-medium');
+            event.target.classList.add('bg-royal-900', 'text-gold-300', 'border-royal-900', 'font-semibold');
+
+            renderBlogCards(category);
+        }
+
+        function renderBlogCards(category) {
+            const grid = document.getElementById('articles-grid');
+            grid.innerHTML = '';
+
+            // Skip ID 0 because it's displayed as the Featured Hero Article
+            const filtered = blogArticles.filter(art => art.id !== 0 && (category === 'all' || art.category === category));
+
+            filtered.forEach(article => {
+                const card = document.createElement('article');
+                card.onclick = () => openArticleModal(article.id);
+                card.className = "group cursor-pointer rounded-3xl bg-white border border-stone/80 hover:border-gold-500 overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 flex flex-col justify-between";
+                card.innerHTML = `
+                    <div>
+                        <div class="relative h-56 overflow-hidden">
+                            <img src="${article.image}" 
+                                 onerror="this.src='https://placehold.co/800x500/0B132B/E5C98B?text=أمواج+العمران'"
+                                 alt="${article.title}" 
+                                 class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
+                            <span class="absolute top-4 right-4 px-3 py-1 rounded-full bg-royal-900/90 text-gold-300 text-xs font-medium backdrop-blur-sm">
+                                ${article.categoryLabel}
+                            </span>
+                        </div>
+                        <div class="p-6">
+                            <div class="flex items-center gap-2 text-xs text-charcoal/55 mb-2.5">
+                                <span>${article.date}</span>
+                                <span>•</span>
+                                <span>${article.readTime}</span>
+                            </div>
+                            <h3 class="font-poetic text-2xl font-bold text-royal-900 group-hover:text-gold-600 transition-colors leading-snug mb-3">
+                                ${article.title}
+                            </h3>
+                            <p class="text-charcoal/70 text-sm leading-relaxed line-clamp-3">
+                                ${article.excerpt}
+                            </p>
+                        </div>
+                    </div>
+                    <div class="px-6 py-4 bg-sand/40 border-t border-stone/50 flex items-center justify-between text-xs">
+                        <span class="font-medium text-royal-900">${article.author}</span>
+                        <span class="text-gold-600 font-bold group-hover:-translate-x-1 transition-transform">افتح نافذة المقال ←</span>
+                    </div>
+                `;
+                grid.appendChild(card);
+            });
+        }
+
+        // 7. ARTICLE READER MODAL LOGIC
+        function openArticleModal(id) {
+            const article = blogArticles.find(a => a.id === id);
+            if (!article) return;
+
+            document.getElementById('modal-article-category').textContent = article.categoryLabel;
+            document.getElementById('modal-article-img').src = article.image;
+            document.getElementById('modal-article-date').textContent = article.date;
+            document.getElementById('modal-article-readtime').textContent = `${article.readTime} للقراءة`;
+            document.getElementById('modal-article-author').textContent = `بقلم: ${article.author}`;
+            document.getElementById('modal-article-title').textContent = article.title;
+            document.getElementById('modal-article-quote').textContent = article.quote;
+
+            const bodyContainer = document.getElementById('modal-article-body');
+            bodyContainer.innerHTML = article.paragraphs.map(p => `<p>${p}</p>`).join('');
+
+            const modal = document.getElementById('article-modal');
+            modal.classList.remove('hidden');
+            modal.classList.add('flex');
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeArticleModal() {
+            const modal = document.getElementById('article-modal');
+            modal.classList.add('hidden');
+            modal.classList.remove('flex');
+            document.body.style.overflow = '';
+        }
+
+        // 8. VIP CONSULTATION MODAL LOGIC
+        function openConsultationModal() {
+            document.getElementById('consultation-form-container').classList.remove('hidden');
+            document.getElementById('consultation-success').classList.add('hidden');
+            const modal = document.getElementById('consultation-modal');
+            modal.classList.remove('hidden');
+            modal.classList.add('flex');
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeConsultationModal() {
+            const modal = document.getElementById('consultation-modal');
+            modal.classList.add('hidden');
+            modal.classList.remove('flex');
+            document.body.style.overflow = '';
+        }
+
+        function handleConsultationSubmit(e) {
+            e.preventDefault();
+            document.getElementById('consultation-form-container').classList.add('hidden');
+            document.getElementById('consultation-success').classList.remove('hidden');
+        }
+    </script>
+</body>
+</html>
